@@ -47,6 +47,14 @@ function init() {
     el.addEventListener("drop", handleDrop);
     el.addEventListener("dragend", handleDragEnd);
 
+    el = document.getElementById("box6");
+    el.addEventListener("dragstart", handleDragStart);
+    el.addEventListener("dragenter", handleDragEnter);
+    el.addEventListener("dragover", handleDragOver);
+    el.addEventListener("dragleave", handleDragLeave);
+    el.addEventListener("drop", handleDrop);
+    el.addEventListener("dragend", handleDragEnd);
+
     var srcDragObj;
 
     
