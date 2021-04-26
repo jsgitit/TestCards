@@ -1,0 +1,43 @@
+﻿body {
+    background-color: slategrey;
+    font-size: 25px;
+    font-style: oblique;
+    color:  whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    padding: 5px;
+    font-size: 20px;
+    font-style: oblique;
+    color:  whitesmoke;
+    margin: 0;
+}
+
+.container {
+    margin: 10%;
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.div-box {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin: 1px;
+    padding: 1px;
+    height: 100px;
+    width: 50px;
+    flex: 0 0 50px;
+    transition: transform 0.25s;
+    background-color: darkcyan;
+}
+
+    .div-box:hover {
+        /*transform: translateX(-92px);*/
+    }
