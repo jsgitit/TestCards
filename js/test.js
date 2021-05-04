@@ -1,7 +1,13 @@
 window.onload = function () {
 
     init();
+<<<<<<< HEAD
     console.log("jon");
+=======
+
+    console.log('merge conflict test');
+
+>>>>>>> 0c7dbc160c0e9328fb951f3c9e50b92840a5601c
 }
 
 function init() {
