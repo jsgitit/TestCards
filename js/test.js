@@ -2,6 +2,8 @@ window.onload = function () {
 
     init();
 
+    console.log('merge conflict test');
+
 }
 
 function init() {
