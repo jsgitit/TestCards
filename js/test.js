@@ -1,7 +1,7 @@
 window.onload = function () {
 
     init();
-
+    console.log("jon");
 }
 
 function init() {
@@ -77,7 +77,7 @@ function handleDragEnter(ev) {
         var targ = ev.currentTarget;
         console.log("Dragging src=" + srcDragObj.id + " to target=" + ev.target.id);
         if (srcDragObj.id != null && targ.id != null) {
-            playSound("Slide.wav");
+            playSound("Beep.wav");
             arrangeCards(document.getElementById("container"), srcDragObj, targ);
         }
     }
